@@ -1,0 +1,9 @@
+instalar npm install -g angular-cli-ghpages
+ng deploy --base-href=/my-angular-portfolio/
+
+ng build --output-path docs --base-href /<my-angular-portfolio>/
+
+Siempre verificar que en la carpeta docs se genere el index.html y en el, el base este de esta forma
+base href="/my-angular-portfolio/"
+
+
