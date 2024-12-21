@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+// @import '~bootstrap/scss/bootstrap';
+// @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+:root {
+    --bg-color:#050505;
+    --second-bg-color:#151515;
+    --text-color:#fff;
+    --main-color:#D773D9;
+    --purple:#510273;
+    --purple2:#653BBF;
+    --greenLight:#B9BF04;
+    --darkGreen:#888C03;
+}
+body{
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+}
+html, body { height: 100%; }
+html {
+    scroll-behavior: smooth;
+  }
+  
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

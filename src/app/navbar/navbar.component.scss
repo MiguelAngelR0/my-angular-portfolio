@@ -1,0 +1,39 @@
+.header{
+    color: var(--text-color);
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    a{
+        color: var(--text-color);
+        text-decoration:none;
+        transition: 0.3s ease-in-out;
+        border-bottom: 3px solid transparent;
+        display: inline-block;
+    }
+    span{
+        color: var(--main-color);
+    }
+}
+
+.header a:hover,
+.header a.active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.icon{
+        color: white;
+        margin: 3rem 1.5rem 3rem 0; 
+        padding: 0.3rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        transition: 0.3s ease-in-out;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.icon:hover{
+    color: white;
+    box-shadow: var(--main-color);
+    background-color: var(--main-color);
+    transform: scale(1.2);
+}
