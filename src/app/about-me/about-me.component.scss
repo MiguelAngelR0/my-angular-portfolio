@@ -1,125 +1,136 @@
-.layout{
-    
-    span{
+.layout {
+
+    span {
         color: var(--purple);
     }
 
 }
-.perfil{
-    
-  
-    img{
-        border-radius:100%;
+
+.perfil {
+
+
+    img {
+        border-radius: 100%;
         width: 500px;
         height: 500px;
         box-shadow: 0 0 25px var(--purple);
         background-color: rgb(0, 0, 0);
         transition: 0.4s ease-in-out;
     }
-    img:hover{
-        box-shadow: 0 0 50px var(--purple),
-                    0 0 100px var(--purple);
 
-        }
-    .icon{
+    img:hover {
+        box-shadow: 0 0 50px var(--purple),
+            0 0 100px var(--purple);
+
+    }
+
+    .icon {
         display: inline-flex;
         justify-content: center;
         align-items: center;
         width: 3.5rem;
         height: 3.5rem;
-        background:transparent;
-        border-radius:50%;
+        background: transparent;
+        border-radius: 50%;
         border: 0.1rem solid var(--main-color);
-        color:var(--main-color);
-        margin: 3rem 1.5rem 3rem 0; 
+        color: var(--main-color);
+        margin: 3rem 1.5rem 3rem 0;
         padding: 0.3rem;
         transition: 0.3s ease-in-out;
     }
-    .icon:hover{
+
+    .icon:hover {
         color: white;
         transform: scale(1.3)translateY(-5px);
         box-shadow: 0 0 25px var(--main-color);
         background-color: var(--main-color);
     }
-    .btn{
+
+    .btn {
         display: inline-block;
         padding: 1rem 2.8rem;
-        background:var(--main-color);
+        background: var(--main-color);
         border-radius: 4rem;
         font-size: 1.6rem;
-        border:2px solid transparent;
+        border: 2px solid transparent;
         font-weight: 600;
         transition: 0.3s ease-in-out;
         cursor: pointer;
     }
 
-    .btn:hover{
+    .btn:hover {
         transform: scale(1.05);
         box-shadow: 0 0 25px var(--main-color);
     }
 
-    
-    
+
+
 }
 
-.icon-skill{
+.icon-skill {
     width: 3.5rem;
     height: 3.5rem;
 }
-.card-skill{
-        background:transparent;
-        border: 0.1rem solid var(--main-color);
-        color:var(--main-color);
-        padding: 0.3rem;
-        transition: 0.3s ease-in-out;
+
+.card-skill {
+    background: transparent;
+    border: 0.1rem solid var(--main-color);
+    color: var(--main-color);
+    padding: 0.3rem;
+    transition: 0.3s ease-in-out;
 }
 
-.card-skill:hover{
+.card-skill:hover {
     color: white;
     transform: scale(1.2)translateY(-2px);
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
 }
 
-.contact{
-    
+.contact {
+
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
 
 }
-.contact:focus{
+
+.contact:focus {
     color: var(--main-color);
 }
 
-.contact .input-box{
-    display:flex;
+.contact .input-box {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .no-resize {
-    resize: none; /* Desactiva el redimensionamiento del textarea */
-    width: 100%;  /* Ancho del 100% del contenedor */
-    height: 150px; /* Altura predefinida */
+    resize: none;
+    /* Desactiva el redimensionamiento del textarea */
+    width: 100%;
+    /* Ancho del 100% del contenedor */
+    height: 150px;
+    /* Altura predefinida */
 }
 
-    .cv-icon{
-        width: 3rem;
-        height: 3rem;
-        color:var(--main-color);
-        transition: 0.3s ease-in-out;
-    }
-    .cv-icon:hover{
-        color: white;
-        transform: scale(1.3)translateY(-5px);
-        box-shadow: 0 0 50px var(--main-color);
-        background-color: var(--main-color);
-        padding: 5px;
-    }    
-  
-    
-    .footer{
-        background-color:var(--bg-color);
-        width: 100%;
-    }
+.cv-icon {
+    width: 3rem;
+    height: 3rem;
+    color: var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+.cv-icon:hover {
+    color: white;
+    transform: scale(1.3)translateY(-5px);
+    box-shadow: 0 0 50px var(--main-color);
+    background-color: var(--main-color);
+    padding: 5px;
+}
+
+
+.footer {
+    background-color: var(--bg-color);
+    width: 100%;
+}

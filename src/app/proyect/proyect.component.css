@@ -1,1 +1,33 @@
-/*# sourceMappingURL=proyect.component.css.map */
+.card {
+  background: transparent;
+  border: 0.1rem solid var(--main-color);
+  color: var(--main-color);
+  padding: 0.3rem;
+  transition: 0.3s ease-in-out;
+  border-radius: 5%;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-2px);
+}
+
+.no-resize {
+  resize: none; /* Desactiva el redimensionamiento del textarea */
+  width: 400px; /* Ancho del 100% del contenedor */
+  height: 500px; /* Altura predefinida */
+}
+
+.button {
+  width: 9rem;
+  height: 4rem;
+  color: var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: white;
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 0 50px var(--main-color);
+  background-color: var(--main-color);
+  padding: 5px;
+}/*# sourceMappingURL=proyect.component.css.map */

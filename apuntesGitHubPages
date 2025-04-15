@@ -1,10 +1,18 @@
 instalar npm install -g angular-cli-ghpages
-ng deploy --base-href=/my-angular-portfolio/
+crear entorno de pro en dist
+ng build --configuration production --output-path=dist
 
 ng build --output-path docs --base-href /<my-angular-portfolio>/
-ng deploy
 
 Siempre verificar que en la carpeta docs se genere el index.html y en el, el base este de esta forma
 base href="/my-angular-portfolio/"
+
+ng deploy
+
+ng deploy --base-href=/my-angular-portfolio/
+
+*****
+ng build --configuration production --output-path=dist/securaInsurance
+npx angular-cli-ghpages --dir=dist/securaInsurance
 
 
