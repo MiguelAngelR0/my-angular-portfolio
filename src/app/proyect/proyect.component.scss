@@ -5,10 +5,12 @@
     padding: 0.3rem;
     transition: 0.3s ease-in-out;
     border-radius: 5%;
+    max-width: 300px; /* Limita el ancho */
+    width: 100%; /* Que sea responsive */
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .card:hover{
-    transform: scale(1.1)translateY(-2px);
+    transform: scale(1.05)translateY(-2px);
     // box-shadow: 0 0 25px var(--main-color);
     // background-color: var(--main-color);
 }
