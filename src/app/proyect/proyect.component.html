@@ -1,7 +1,45 @@
 <h2 class="d-flex justify-content-center align-items-center mb-5">PROJECTS</h2>
 
 <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators mt-5">
+    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
   <div class="carousel-inner">
+        <!-- Slide 4 -->
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center">
+            <mat-card data-aos="flip-left" class="card no-resize m-3" appearance="outlined">
+              <mat-card-header>
+                <mat-card-title-group>
+                  <mat-card-title>Teslo shop app</mat-card-title>
+                  <mat-card-subtitle>Angular</mat-card-subtitle>
+                  <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21V7h3.5v-.5q0-1.458 1.021-2.479T12 3t2.479 1.021T15.5 6.5V7H19v14zM9.5 7h5v-.5q0-1.056-.722-1.778T12 4t-1.778.722T9.5 6.5zm-1 4h1V8h-1zm6 0h1V8h-1z"/></svg>
+                  </div>
+                </mat-card-title-group>
+              </mat-card-header>
+              <mat-card-content class="mt-5">
+                <p>Login with for Admin page: </p>
+                <ol>
+                  <li>User admin: {{'test1@google.com'}} </li>
+                  <li>Password: Abc123</li>
+                </ol>
+                <ul>
+                  <li>Angular</li>
+                  <li>Store Manage</li>
+                </ul>
+              </mat-card-content>
+              <mat-card-actions class="mt-auto d-flex justify-content-center align-bottom">
+                <a class="button" mat-stroked-button href="https://spiffy-flan-80bdcf.netlify.app/" target="_blank">Go to
+                  project</a>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+        </div>
+
     <!-- Slide 1 -->
     <div class="carousel-item">
       <div class="d-flex justify-content-center">
@@ -31,7 +69,7 @@
     </div>
 
     <!-- Slide 2 -->
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <div class="d-flex justify-content-center">
         <mat-card data-aos="flip-left" class="card no-resize m-3" appearance="outlined">
           <mat-card-header>
@@ -87,6 +125,8 @@
         </mat-card>
       </div>
     </div>
+
+
   </div>
 
   <!-- Controles -->
@@ -110,3 +150,35 @@
           <svg class="cv-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z"></path></svg>
       </a>
     </div>
+
+    <!-- Certificates -->
+
+    <div class="mt-5 text-center">
+      <h2>Certificates</h2>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Certificado 1 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+          <h1 class="h5">Curso de Angular</h1>
+          <img src="assets/AngularCert.jpg" alt="Certificado Angular" class="img-fluid mb-2">
+          <a href="https://www.udemy.com/certificate/UC-42727232-e719-489c-af31-197a17cf9c51/" target="_blank" class="btn btn-primary">Go to certificate</a>
+        </div>
+
+        <!-- Certificado 2 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+          <h1 class="h5">Redux en Angular</h1>
+          <img src="assets/ReduxEnAngular.jpg" alt="Certificado Redux" class="img-fluid mb-2">
+          <a href="https://www.udemy.com/certificate/UC-0a061571-a852-4739-8c0b-913241e19c37/" target="_blank" class="btn btn-primary">Go to certificate</a>
+        </div>
+
+        <!-- Certificado 3 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+          <h1 class="h5">RxJS</h1>
+          <img src="assets/RxJsAngular.jpg" alt="Certificado RxJS" class="img-fluid mb-2">
+          <a href="https://www.udemy.com/certificate/UC-b9900ed9-e03f-4f00-8dfd-66bf38f36282/" target="_blank" class="btn btn-primary">Go to certificate</a>
+        </div>
+      </div>
+    </div>
+
